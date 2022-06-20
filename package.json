@@ -1,0 +1,40 @@
+{
+  "name": "@nix/prettier-config",
+  "version": "1.0.0-dev",
+  "description": "Yeong-Woo Han's Prettier config",
+  "keywords": [
+    "prettier",
+    "prettierconfig",
+    "config",
+    "format"
+  ],
+  "homepage": "https://github.com/nix6839/prettier-config",
+  "bugs": "https://github.com/nix6839/prettier-config/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nix6839/prettier-config.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Yeong-Woo Han",
+    "url": "https://github.com/nix6839"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write '**/*.{ts,cjs,json,md}' && sort-package-json",
+    "format:check": "prettier --check '**/*.{ts,cjs,json,md}' && sort-package-json --check"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.41",
+    "@types/prettier": "^2.6.3",
+    "prettier": "^2.6.0",
+    "sort-package-json": "^1.57.0"
+  },
+  "peerDependencies": {
+    "prettier": "^2.6.0"
+  },
+  "packageManager": "pnpm@7.3.0"
+}
