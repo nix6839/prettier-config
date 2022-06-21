@@ -24,8 +24,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "format": "prettier --write '**/*.{ts,cjs,json,md}' && sort-package-json",
-    "format:check": "prettier --check '**/*.{ts,cjs,json,md}' && sort-package-json --check"
+    "format": "prettier --write '**/*.{ts,cjs,md,json,yml,yaml}' && sort-package-json",
+    "format:check": "prettier --check '**/*.{ts,cjs,md,json,yml,yaml}' && sort-package-json --check"
   },
   "devDependencies": {
     "@types/node": "^16.11.41",
