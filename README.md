@@ -1,6 +1,6 @@
 # @nix/prettier-config
 
-Yeong-Woo Han's extensible prettier config
+Yeong-Woo Han's extensible Prettier config
 
 ## Usage
 
