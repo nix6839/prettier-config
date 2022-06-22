@@ -1,4 +1,4 @@
-import {Config, Options, RequiredOptions} from 'prettier';
+import { Config, Options, RequiredOptions } from 'prettier';
 
 type PrettierOptions = Omit<
   RequiredOptions,
@@ -24,7 +24,7 @@ const config: PrettierConfig = {
   // Options with default values
   semi: true,
   jsxSingleQuote: false,
-  bracketSpacing: false,
+  bracketSpacing: true,
   bracketSameLine: false,
   rangeStart: 0,
   rangeEnd: Infinity,
