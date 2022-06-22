@@ -4,6 +4,7 @@ type PrettierOptions = Omit<
   RequiredOptions,
   // Depreacted options.
   | 'jsxBracketSameLine' // use bracketSameLine instead
+
   // Options that don't have default value.
   | 'parser'
   | 'filepath'
@@ -19,6 +20,7 @@ const config: PrettierConfig = {
   // Overridden options
   singleQuote: true,
   trailingComma: 'all',
+
   // Options with default values
   semi: true,
   jsxSingleQuote: false,
