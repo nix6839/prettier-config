@@ -1,6 +1,6 @@
 {
   "name": "@nix6839/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yeong-Woo Han's extensible Prettier config",
   "keywords": [
     "prettier",
