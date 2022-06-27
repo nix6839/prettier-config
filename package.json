@@ -1,13 +1,14 @@
 {
   "name": "@nix6839/prettier-config",
   "version": "1.0.1",
-  "description": "Yeong-Woo Han's extensible Prettier config",
+  "description": "Yeong-Woo Han's extensible shared Prettier config",
   "keywords": [
     "prettier",
     "prettierconfig",
     "prettier-config",
     "config",
-    "format"
+    "format",
+    "styleguide"
   ],
   "homepage": "https://github.com/nix6839/prettier-config",
   "bugs": "https://github.com/nix6839/prettier-config/issues",
