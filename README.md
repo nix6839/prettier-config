@@ -1,5 +1,8 @@
 # @nix6839/prettier-config
 
+[![Node.js CI](https://github.com/nix6839/prettier-config/actions/workflows/node-ci.yml/badge.svg)](https://github.com/nix6839/prettier-config/actions/workflows/node-ci.yml)
+[![npm version](https://badge.fury.io/js/@nix6839%2Fprettier-config.svg)](https://badge.fury.io/js/@nix6839%2Fprettier-config)
+
 Han Yeong-woo's extensible shared Prettier config
 
 ## Usage
