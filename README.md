@@ -1,6 +1,6 @@
 # @nix6839/prettier-config
 
-Yeong-Woo Han's extensible shared Prettier config
+Han Yeong-woo's extensible shared Prettier config
 
 ## Usage
 
