@@ -1,7 +1,7 @@
 {
   "name": "@nix6839/prettier-config",
   "version": "1.0.2",
-  "description": "Yeong-Woo Han's extensible shared Prettier config",
+  "description": "Han Yeong-woo's extensible shared Prettier config",
   "keywords": [
     "prettier",
     "prettierconfig",
@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "author": {
-    "name": "Yeong-Woo Han",
+    "name": "Han Yeong-woo",
     "url": "https://github.com/nix6839"
   },
   "files": [
