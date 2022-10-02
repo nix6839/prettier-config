@@ -1,4 +1,4 @@
-import { Config, Options, RequiredOptions } from 'prettier';
+import type { Config, Options, RequiredOptions } from 'prettier';
 
 type PrettierOptions = Omit<
   RequiredOptions,
