@@ -10,6 +10,7 @@
     "moduleResolution": "node",
     "importsNotUsedAsValues": "error",
     "declaration": true,
+    "exactOptionalPropertyTypes": true,
 
     "outDir": "./dist"
   }
