@@ -44,3 +44,4 @@ const config: PrettierConfig = {
 };
 
 module.exports = config;
+export default PrettierConfig;
