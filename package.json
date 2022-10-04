@@ -38,7 +38,13 @@
     "sort-package-json": "^2.0.0"
   },
   "peerDependencies": {
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "@types/prettier": "^2.7.1"
+  },
+  "peerDependenciesMeta": {
+    "@types/prettier": {
+      "optional": true
+    }
   },
   "packageManager": "pnpm@7.12.2"
 }
