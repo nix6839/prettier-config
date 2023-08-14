@@ -15,7 +15,7 @@ npm i -D @nix6839/prettier-config prettier
 
 ### 2. Add `"@nix6839/prettier-config"` to your `.prettierrc`
 
-## What is overriden
+## What is overridden
 
 ```js
 {
