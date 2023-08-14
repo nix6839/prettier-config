@@ -2,7 +2,7 @@ import type { Config, Options, RequiredOptions } from 'prettier';
 
 type PrettierOptions = Omit<
   RequiredOptions,
-  // Depreacted options.
+  // Deprecated options.
   | 'jsxBracketSameLine' // use bracketSameLine instead
 
   // Options that don't have default value.
