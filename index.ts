@@ -19,11 +19,11 @@ type PrettierConfig = PrettierOptions & Omit<Config, keyof Options>;
 const config: PrettierConfig = {
   // Overridden options
   singleQuote: true,
-  trailingComma: 'all',
 
   // Options with default values
   semi: true,
   jsxSingleQuote: false,
+  trailingComma: 'all',
   bracketSpacing: true,
   bracketSameLine: false,
   rangeStart: 0,
