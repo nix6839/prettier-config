@@ -43,4 +43,4 @@ const config: PrettierConfig = {
   useTabs: false,
 };
 
-export = config;
+export default config;

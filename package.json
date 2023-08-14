@@ -21,6 +21,7 @@
     "name": "Han Yeong-woo",
     "url": "https://github.com/nix6839"
   },
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
