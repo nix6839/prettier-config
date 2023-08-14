@@ -20,6 +20,5 @@ npm i -D @nix6839/prettier-config prettier
 ```js
 {
   singleQuote: true, // You don't have to press Shift.
-  trailingComma: 'all', // You can easily add or delete code.
 }
 ```
