@@ -40,5 +40,5 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: pnpm i --frozen-lockfile
       - run: pnpm run build
-      - run: pnpm config set //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }} -L project
+      - run: pnpm config set //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }} --location project
       - run: pnpm publish --access public --no-git-checks
