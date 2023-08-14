@@ -5,12 +5,14 @@ specifiers:
   '@types/prettier': ^2.7.1
   prettier: ^2.7.1
   sort-package-json: ^2.0.0
+  typescript: ^5.1.6
 
 devDependencies:
   '@types/node': 16.11.62
   '@types/prettier': 2.7.1
   prettier: 2.7.1
   sort-package-json: 2.0.0
+  typescript: 5.1.6
 
 packages:
 
@@ -210,4 +212,10 @@ packages:
     engines: {node: '>=8.0'}
     dependencies:
       is-number: 7.0.0
+    dev: true
+
+  /typescript/5.1.6:
+    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
+    engines: {node: '>=14.17'}
+    hasBin: true
     dev: true

@@ -8,7 +8,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node16",
-    "importsNotUsedAsValues": "error",
+    "verbatimModuleSyntax": true,
     "declaration": true,
     "exactOptionalPropertyTypes": true,
 
