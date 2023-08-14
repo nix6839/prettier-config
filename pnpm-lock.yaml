@@ -6,17 +6,17 @@ settings:
 
 devDependencies:
   '@types/node':
-    specifier: ^16.11.62
-    version: 16.11.62
+    specifier: ^18.17.5
+    version: 18.17.5
   '@types/prettier':
-    specifier: ^2.7.1
-    version: 2.7.1
+    specifier: ^2.7.3
+    version: 2.7.3
   prettier:
-    specifier: ^2.7.1
-    version: 2.7.1
+    specifier: ^2.8.8
+    version: 2.8.8
   sort-package-json:
-    specifier: ^2.0.0
-    version: 2.0.0
+    specifier: ^2.5.1
+    version: 2.5.1
 
 packages:
 
@@ -41,12 +41,12 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@types/node@16.11.62:
-    resolution: {integrity: sha512-K/ggecSdwAAy2NUW4WKmF4Rc03GKbsfP+k326UWgckoS+Rzd2PaWbjk76dSmqdLQvLTJAO9axiTUJ6488mFsYQ==}
+  /@types/node@18.17.5:
+    resolution: {integrity: sha512-xNbS75FxH6P4UXTPUJp/zNPq6/xsfdJKussCWNOnz4aULWIRwMgP1LgaB5RiBnMX1DPCYenuqGZfnIAx5mbFLA==}
     dev: true
 
-  /@types/prettier@2.7.1:
-    resolution: {integrity: sha512-ri0UmynRRvZiiUJdiz38MmIblKK+oH30MztdBVR95dv/Ubw6neWSb8u1XpRb72L4qsZOhz+L+z9JD40SJmfWow==}
+  /@types/prettier@2.7.3:
+    resolution: {integrity: sha512-+68kP9yzs4LMp7VNh8gdzMSPZFL44MLGqiHWvttYJe+6qnuVr4Ek9wSBQoveqY/r+LwjCcU29kNVkidwim+kYA==}
     dev: true
 
   /braces@3.0.2:
@@ -95,6 +95,11 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       to-regex-range: 5.0.1
+    dev: true
+
+  /get-stdin@9.0.0:
+    resolution: {integrity: sha512-dVKBjfWisLAicarI2Sf+JuBE/DghV4UzNAVe9yhEJuzeREd3JhOTE9cUaJTeSa77fsbQUK3pcOpJfM59+VKZaA==}
+    engines: {node: '>=12'}
     dev: true
 
   /git-hooks-list@3.0.0:
@@ -169,8 +174,8 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /prettier@2.7.1:
-    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
+  /prettier@2.8.8:
+    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -199,12 +204,13 @@ packages:
     resolution: {integrity: sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==}
     dev: true
 
-  /sort-package-json@2.0.0:
-    resolution: {integrity: sha512-71AZsHsf33oC8Pa0/4/6eo1IufgLfibqxTXTA3bfeicx8gba7kDc5Cofy2YHWrH/cV8nfXSQeMNpGliR07oEHA==}
+  /sort-package-json@2.5.1:
+    resolution: {integrity: sha512-vx/KoZxm8YNMUqdlw7SGTfqR5pqZ/sUfgOuRtDILiOy/3AvzhAibyUe2cY3OpLs3oRSow9up4yLVtQaM24rbDQ==}
     hasBin: true
     dependencies:
       detect-indent: 7.0.1
       detect-newline: 4.0.0
+      get-stdin: 9.0.0
       git-hooks-list: 3.0.0
       globby: 13.1.2
       is-plain-obj: 4.1.0
