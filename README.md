@@ -19,6 +19,9 @@ npm i -D @nix6839/prettier-config prettier
 
 ```js
 {
-  singleQuote: true, // You don't have to press Shift.
+	singleQuote: true, // You don't have to press Shift.
+	useTabs: true, // Accessibility first
 }
 ```
+
+For accessibility of `useTabs`, see the following [Reddit post](https://www.reddit.com/r/javascript/comments/c8drjo/nobody_talks_about_the_real_reason_to_use_tabs/).
