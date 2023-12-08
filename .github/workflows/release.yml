@@ -1,0 +1,27 @@
+on:
+  release:
+    types: [created]
+
+jobs:
+  ci:
+    uses: ./.github/workflows/ci.yml
+
+  publish-npm:
+    needs: ci
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8.6.12
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'pnpm'
+          registry-url: 'https://registry.npmjs.org'
+      - run: pnpm i --frozen-lockfile
+      - run: pnpm run build
+      - run: pnpm config set //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }} --location project
+      - run: pnpm publish --access public --no-git-checks
