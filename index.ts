@@ -18,7 +18,7 @@ type MustSetOptions = Required<
 
 type Config = MustSetOptions & Omit<prettier.Config, keyof MustSetOptions>;
 
-const config: Config = {
+const config = {
   // Overridden options
   singleQuote: true,
 
@@ -43,6 +43,6 @@ const config: Config = {
   printWidth: 80,
   tabWidth: 2,
   useTabs: false,
-};
+} satisfies Config;
 
 export default config;
