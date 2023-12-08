@@ -19,8 +19,8 @@ npm i -D @nix6839/prettier-config prettier
 
 ```js
 {
-  singleQuote: true, // You don't have to press Shift.
-  useTabs: true, // Accessibility first
+	singleQuote: true, // You don't have to press Shift.
+	useTabs: true, // Accessibility first
 }
 ```
 

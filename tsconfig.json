@@ -1,21 +1,21 @@
 {
-  "compilerOptions": {
-    "target": "ES2022",
-    "lib": ["ES2022"],
-    "module": "NodeNext",
+	"compilerOptions": {
+		"target": "ES2022",
+		"lib": ["ES2022"],
+		"module": "NodeNext",
 
-    "moduleResolution": "NodeNext",
-    "verbatimModuleSyntax": true,
-    "resolveJsonModule": true,
+		"moduleResolution": "NodeNext",
+		"verbatimModuleSyntax": true,
+		"resolveJsonModule": true,
 
-    "strict": true,
-    "noImplicitOverride": true,
-    "exactOptionalPropertyTypes": true,
-    "forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"noImplicitOverride": true,
+		"exactOptionalPropertyTypes": true,
+		"forceConsistentCasingInFileNames": true,
 
-    "declaration": true,
-    "outDir": "./dist",
+		"declaration": true,
+		"outDir": "./dist",
 
-    "skipLibCheck": true
-  }
+		"skipLibCheck": true
+	}
 }
