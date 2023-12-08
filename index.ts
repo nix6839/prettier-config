@@ -1,22 +1,24 @@
-import type { Config, Options, RequiredOptions } from 'prettier';
+import type * as prettier from 'prettier';
 
-type PrettierOptions = Omit<
-  RequiredOptions,
-  // Deprecated options.
-  | 'jsxBracketSameLine' // use bracketSameLine instead
+type MustSetOptions = Required<
+  Omit<
+    prettier.Options,
+    // Deprecated options.
+    | 'jsxBracketSameLine' // use bracketSameLine instead
 
-  // Options that don't have default value.
-  | 'parser'
-  | 'filepath'
-  | 'plugins'
-  | 'pluginSearchDirs'
-  | 'parentParser'
-  | '__embeddedInHtml'
+    // Options that don't have default value.
+    | 'parser'
+    | 'filepath'
+    | 'plugins'
+    | 'pluginSearchDirs'
+    | 'parentParser'
+    | '__embeddedInHtml'
+  >
 >;
 
-type PrettierConfig = PrettierOptions & Omit<Config, keyof Options>;
+type Config = MustSetOptions & Omit<prettier.Config, keyof MustSetOptions>;
 
-const config: PrettierConfig = {
+const config: Config = {
   // Overridden options
   singleQuote: true,
 
