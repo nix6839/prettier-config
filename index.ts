@@ -30,6 +30,7 @@ const config = {
 	// Overridden options
 	singleQuote: true,
 	useTabs: true,
+	experimentalTernaries: true,
 
 	// Options with default values
 	semi: true,
