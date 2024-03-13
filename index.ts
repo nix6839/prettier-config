@@ -1,8 +1,14 @@
 import type * as prettier from 'prettier';
 
+type RemoveIndex<T> = {
+	[K in keyof T as string extends K ? never
+	: number extends K ? never
+	: K]: T[K];
+};
+
 type MustSetOptions = Required<
 	Omit<
-		prettier.Options,
+		RemoveIndex<prettier.Options>,
 		// Deprecated options.
 		| 'jsxBracketSameLine' // use bracketSameLine instead
 
@@ -22,6 +28,7 @@ const config = {
 	// Overridden options
 	singleQuote: true,
 	useTabs: true,
+	experimentalTernaries: true,
 
 	// Options with default values
 	semi: true,

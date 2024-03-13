@@ -21,6 +21,7 @@ npm i -D @nix6839/prettier-config prettier
 {
 	singleQuote: true, // You don't have to press Shift.
 	useTabs: true, // Accessibility first
+	experimentalTernaries: true, // See: https://prettier.io/blog/2023/11/13/curious-ternaries
 }
 ```
 
