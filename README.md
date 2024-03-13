@@ -1,7 +1,7 @@
 # @nix6839/prettier-config
 
 [![CI](https://github.com/nix6839/prettier-config/actions/workflows/ci.yml/badge.svg)](https://github.com/nix6839/prettier-config/actions/workflows/ci.yml)
-[![npm version](https://badge.fury.io/js/@nix6839%2Fprettier-config.svg)](https://badge.fury.io/js/@nix6839%2Fprettier-config)
+[![NPM Version](https://img.shields.io/npm/v/@nix6839/prettier-config)](https://www.npmjs.com/package/@nix6839/prettier-config)
 
 Han Yeong-woo's extensible shared Prettier config
 
