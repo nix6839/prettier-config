@@ -33,7 +33,7 @@
 		"format:check": "prettier --check '**/*.{ts,js,md,json,yml,yaml}' && sort-package-json --check"
 	},
 	"devDependencies": {
-		"@types/node": "^18.19.31",
+		"@types/node": "^18.19.33",
 		"prettier": "^3.2.5",
 		"sort-package-json": "^2.10.0",
 		"typescript": "^5.4.5"
