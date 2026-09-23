@@ -28,7 +28,9 @@ const config = {
 	// Overridden options
 	singleQuote: true,
 	useTabs: true,
+	checkIgnorePragma: true,
 	experimentalTernaries: true,
+	experimentalOperatorPosition: 'start',
 
 	// Options with default values
 	semi: true,
@@ -50,6 +52,7 @@ const config = {
 	singleAttributePerLine: false,
 	printWidth: 80,
 	tabWidth: 2,
+	objectWrap: 'preserve',
 } satisfies Config;
 
 export default config;

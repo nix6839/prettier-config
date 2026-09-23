@@ -19,9 +19,11 @@ npm i -D @nix6839/prettier-config prettier
 
 ```js
 {
-	singleQuote: true, // You don't have to press Shift.
+	singleQuote: true, // You don't have to press Shift
 	useTabs: true, // Accessibility first
+	checkIgnorePragma: true, // Respect @noformat and @noprettier pragmas to prevent unintended formatting
 	experimentalTernaries: true, // See: https://prettier.io/blog/2023/11/13/curious-ternaries
+	experimentalOperatorPosition: 'start', // Place operators at the start of lines to make relationships clearer and improve readability
 }
 ```
 
